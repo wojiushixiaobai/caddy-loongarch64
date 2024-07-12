@@ -15,7 +15,7 @@ RUN set -ex; \
     cd /opt; \
     rm -rf /opt/syft
 
-ARG CADDY_VERSION=v2.8.0
+ARG CADDY_VERSION=v2.8.3
 ARG WORKDIR=/opt/caddy
 
 ADD .goreleaser.yml /opt/.goreleaser.yml
