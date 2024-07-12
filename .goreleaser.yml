@@ -46,6 +46,8 @@ builds:
   - -mod=readonly
   ldflags:
   - -s -w
+  tags:
+  - nobadger
 
 sboms:
   - artifacts: binary
